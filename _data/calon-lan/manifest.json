@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Calon Lan" ] },
+    "homepage": [
+      {
+        "id": "https://fixtures.iiif.io/info.html?file=/audio/wikicommons/Calon_Lan/Calon_Lan_-_Various_artists.ogg",
+        "type": "Text",
+        "label": { "en": [ "Home page for Calon Lan" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://fixtures.iiif.io",
+        "type": "Agent",
+        "label": { "en": [ "IIIF Fixtures" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 30,
+        "items": [
+          {
+            "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://fixtures.iiif.io/audio/wikicommons/Calon_Lan/Calon_Lan_-_Various_artists.ogg",
+                    "duration": 30
+                },
+                "target": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
