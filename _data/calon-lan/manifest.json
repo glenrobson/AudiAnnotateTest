@@ -23,6 +23,14 @@
         "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas",
         "type": "Canvas",
         "duration": 30,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas/transcription.json",
+            "label": "Transcription"
+          }
+        ],
         "items": [
           {
             "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/paintings",

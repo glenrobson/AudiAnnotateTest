@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas/transcription.json",
+  "type": "AnnotationPage",
+  "label": "Transcription",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas/transcription-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Nid wy'n gofyn bywyd moethus,",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0.882358277,0.537143"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas/transcription-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Aur y byd na'i berlau mân",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://glenrobson.github.io/AudiAnnotateTest/calon-lan/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "6.315827664,0.554286"
+        }
+      }
+    }
+  ]
+}
